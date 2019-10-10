@@ -261,21 +261,19 @@ body{
 .product{
   width: 100%;
   max-width: 320px;
+  &__border{
+    padding: 4px;
+    background: linear-gradient(135deg,transparent 30px,#1698d9 30px,#1698d9 34px);
+    border-radius: 10px;
+  }
   &__block{
+    background: linear-gradient(135deg,transparent 25px,#1698d9 29px, white 29px);
     position: relative;
     overflow: hidden;
     color:#000;
-    border: 4px solid #1698d9;
     border-radius: 10px;
-    padding: 20px 45px;
     height: 480px;
-    background-image: url('../img/cat.png');
-    background-repeat: no-repeat;
-    background-size: 120%;
-    background-position-y: 200px;
-    background-position-x: -30px;
     &:before{
-      background: linear-gradient(135deg,transparent 25px,#1698d9 25px,#1698d9 29px,#fff 29px);
       z-index: -1;
       content:'';
       position: absolute;
@@ -284,6 +282,17 @@ body{
       top: 0;
       left: 0;
     }
+  }
+  &__bg{
+    background-image: url('../img/cat.png');
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position-y: 200px;
+    background-position-x: -30px;
+    width: 100%;
+    height: 100%;
+    padding: 20px 45px;
+
   }
   &__subtitle{
     font-size: 16px;
