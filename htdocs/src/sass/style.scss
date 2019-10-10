@@ -1,0 +1,343 @@
+@import 'normalize';
+/* exo-2-100 - cyrillic_latin */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Exo 2 Thin'), local('Exo2-Thin'),
+       url('../fonts/exo-2-v7-cyrillic_latin-100.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/exo-2-v7-cyrillic_latin-100.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+// /* exo-2-100italic - cyrillic_latin */
+// @font-face {
+//   font-family: 'Exo 2';
+//   font-style: italic;
+//   font-weight: 100;
+//   src: local('Exo 2 Thin Italic'), local('Exo2-ThinItalic'),
+//        url('../fonts/exo-2-v7-cyrillic_latin-100italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+//        url('../fonts/exo-2-v7-cyrillic_latin-100italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+// }
+// /* exo-2-200 - cyrillic_latin */
+// @font-face {
+//   font-family: 'Exo 2';
+//   font-style: normal;
+//   font-weight: 200;
+//   src: local('Exo 2 ExtraLight'), local('Exo2-ExtraLight'),
+//        url('../fonts/exo-2-v7-cyrillic_latin-200.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+//        url('../fonts/exo-2-v7-cyrillic_latin-200.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+// }
+// /* exo-2-200italic - cyrillic_latin */
+// @font-face {
+//   font-family: 'Exo 2';
+//   font-style: italic;
+//   font-weight: 200;
+//   src: local('Exo 2 ExtraLight Italic'), local('Exo2-ExtraLightItalic'),
+//        url('../fonts/exo-2-v7-cyrillic_latin-200italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+//        url('../fonts/exo-2-v7-cyrillic_latin-200italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+// }
+// /* exo-2-300 - cyrillic_latin */
+// @font-face {
+//   font-family: 'Exo 2';
+//   font-style: normal;
+//   font-weight: 300;
+//   src: local('Exo 2 Light'), local('Exo2-Light'),
+//        url('../fonts/exo-2-v7-cyrillic_latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+//        url('../fonts/exo-2-v7-cyrillic_latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+// }
+// /* exo-2-300italic - cyrillic_latin */
+// @font-face {
+//   font-family: 'Exo 2';
+//   font-style: italic;
+//   font-weight: 300;
+//   src: local('Exo 2 Light Italic'), local('Exo2-LightItalic'),
+//        url('../fonts/exo-2-v7-cyrillic_latin-300italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+//        url('../fonts/exo-2-v7-cyrillic_latin-300italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+// }
+// /* exo-2-regular - cyrillic_latin */
+// @font-face {
+//   font-family: 'Exo 2';
+//   font-style: normal;
+//   font-weight: 400;
+//   src: local('Exo 2 Regular'), local('Exo2-Regular'),
+//        url('../fonts/exo-2-v7-cyrillic_latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+//        url('../fonts/exo-2-v7-cyrillic_latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+// }
+// /* exo-2-italic - cyrillic_latin */
+// @font-face {
+//   font-family: 'Exo 2';
+//   font-style: italic;
+//   font-weight: 400;
+//   src: local('Exo 2 Italic'), local('Exo2-Italic'),
+//        url('../fonts/exo-2-v7-cyrillic_latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+//        url('../fonts/exo-2-v7-cyrillic_latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+// }
+// /* exo-2-500 - cyrillic_latin */
+// @font-face {
+//   font-family: 'Exo 2';
+//   font-style: normal;
+//   font-weight: 500;
+//   src: local('Exo 2 Medium'), local('Exo2-Medium'),
+//        url('../fonts/exo-2-v7-cyrillic_latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+//        url('../fonts/exo-2-v7-cyrillic_latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+// }
+// /* exo-2-600 - cyrillic_latin */
+// @font-face {
+//   font-family: 'Exo 2';
+//   font-style: normal;
+//   font-weight: 600;
+//   src: local('Exo 2 SemiBold'), local('Exo2-SemiBold'),
+//        url('../fonts/exo-2-v7-cyrillic_latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+//        url('../fonts/exo-2-v7-cyrillic_latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+// }
+// /* exo-2-500italic - cyrillic_latin */
+// @font-face {
+//   font-family: 'Exo 2';
+//   font-style: italic;
+//   font-weight: 500;
+//   src: local('Exo 2 Medium Italic'), local('Exo2-MediumItalic'),
+//        url('../fonts/exo-2-v7-cyrillic_latin-500italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+//        url('../fonts/exo-2-v7-cyrillic_latin-500italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+// }
+// /* exo-2-700 - cyrillic_latin */
+// @font-face {
+//   font-family: 'Exo 2';
+//   font-style: normal;
+//   font-weight: 700;
+//   src: local('Exo 2 Bold'), local('Exo2-Bold'),
+//        url('../fonts/exo-2-v7-cyrillic_latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+//        url('../fonts/exo-2-v7-cyrillic_latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+// }
+// /* exo-2-600italic - cyrillic_latin */
+// @font-face {
+//   font-family: 'Exo 2';
+//   font-style: italic;
+//   font-weight: 600;
+//   src: local('Exo 2 SemiBold Italic'), local('Exo2-SemiBoldItalic'),
+//        url('../fonts/exo-2-v7-cyrillic_latin-600italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+//        url('../fonts/exo-2-v7-cyrillic_latin-600italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+// }
+// /* exo-2-700italic - cyrillic_latin */
+// @font-face {
+//   font-family: 'Exo 2';
+//   font-style: italic;
+//   font-weight: 700;
+//   src: local('Exo 2 Bold Italic'), local('Exo2-BoldItalic'),
+//        url('../fonts/exo-2-v7-cyrillic_latin-700italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+//        url('../fonts/exo-2-v7-cyrillic_latin-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+// }
+// /* exo-2-800 - cyrillic_latin */
+// @font-face {
+//   font-family: 'Exo 2';
+//   font-style: normal;
+//   font-weight: 800;
+//   src: local('Exo 2 ExtraBold'), local('Exo2-ExtraBold'),
+//        url('../fonts/exo-2-v7-cyrillic_latin-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+//        url('../fonts/exo-2-v7-cyrillic_latin-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+// }
+// /* exo-2-800italic - cyrillic_latin */
+// @font-face {
+//   font-family: 'Exo 2';
+//   font-style: italic;
+//   font-weight: 800;
+//   src: local('Exo 2 ExtraBold Italic'), local('Exo2-ExtraBoldItalic'),
+//        url('../fonts/exo-2-v7-cyrillic_latin-800italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+//        url('../fonts/exo-2-v7-cyrillic_latin-800italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+// }
+// /* exo-2-900 - cyrillic_latin */
+// @font-face {
+//   font-family: 'Exo 2';
+//   font-style: normal;
+//   font-weight: 900;
+//   src: local('Exo 2 Black'), local('Exo2-Black'),
+//        url('../fonts/exo-2-v7-cyrillic_latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+//        url('../fonts/exo-2-v7-cyrillic_latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+// }
+// /* exo-2-900italic - cyrillic_latin */
+// @font-face {
+//   font-family: 'Exo 2';
+//   font-style: italic;
+//   font-weight: 900;
+//   src: local('Exo 2 Black Italic'), local('Exo2-BlackItalic'),
+//        url('../fonts/exo-2-v7-cyrillic_latin-900italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+//        url('../fonts/exo-2-v7-cyrillic_latin-900italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+// }
+@font-face {
+    font-family: 'Trebuchet MS';
+    src: url('../fonts/TrebuchetMS.woff2') format('woff2'),
+        url('../fonts/TrebuchetMS.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Trebuchet MS';
+    src: url('../fonts/TrebuchetMS-Bold.woff2') format('woff2'),
+        url('../fonts/TrebuchetMS-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Trebuchet MS';
+    src: url('../fonts/TrebuchetMS-Italic.woff2') format('woff2'),
+        url('../fonts/TrebuchetMS-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Trebuchet MS';
+    src: url('../fonts/Trebuchet-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Trebuchet-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Trebuchet MS';
+    src: url('../fonts/TrebuchetMS-Bold.woff2') format('woff2'),
+        url('../fonts/TrebuchetMS-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Trebuchet MS';
+    src: url('../fonts/Trebuchet-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Trebuchet-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Trebuchet MS';
+    src: url('../fonts/TrebuchetMS.woff2') format('woff2'),
+        url('../fonts/TrebuchetMS.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Trebuchet MS';
+    src: url('../fonts/TrebuchetMS-Italic.woff2') format('woff2'),
+        url('../fonts/TrebuchetMS-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul{
+  list-style: none;
+}
+html, body{
+  font-family: 'Trebuchet MS', sans-serif;
+}
+body{
+  background-image: url(../../dist/img/Pattern.png);
+  background-repeat: repeat;
+  color:#fff;
+}
+.main-title{
+  font-weight: 100;
+  font-size: 36px;
+  text-align: center;
+  margin: 40px 0 25px;
+  font-family: 'Exo 2';
+}
+.wrapper{
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1120px;
+}
+.products{
+  display: flex;
+  justify-content: space-between;
+}
+.product{
+  width: 100%;
+  max-width: 320px;
+  &__block{
+    position: relative;
+    overflow: hidden;
+    color:#000;
+    border: 4px solid #1698d9;
+    border-radius: 10px;
+    padding: 20px 45px;
+    height: 480px;
+    background-image: url('../img/cat.png');
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position-y: 200px;
+    background-position-x: -30px;
+    &:before{
+      background: linear-gradient(135deg,transparent 25px,#1698d9 25px,#1698d9 29px,#fff 29px);
+      z-index: -1;
+      content:'';
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+    }
+  }
+  &__subtitle{
+    font-size: 16px;
+    color: #666666;
+  }
+  &__title{
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 5px;
+  }
+  &__topping{
+    font-size: 24px;
+    font-weight: 600;
+  }
+  &__description{
+    font-size: 13px;
+    text-align: center;
+    margin-top: 15px;
+  }
+  &__order-link{
+    color: #1698d9;
+    text-decoration: none;
+    border-bottom: 1px dashed #1698d9;
+  }
+}
+.additions{
+  margin: 10px 0;
+  font-size: 14px;
+  color: #666666;
+  &__item{
+
+  }
+}
+.weight{
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  background: #1698d9;
+  border-radius: 50%;
+  color:#fff;
+  height: 80px;
+  width: 80px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  &__value{
+    font-size: 42px;
+    display: block;
+  }
+  &__text{
+    font-size: 21px;
+    display: block;
+    margin-top: -5px;
+  }
+}
